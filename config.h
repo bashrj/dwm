@@ -65,6 +65,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      		spawn,          {.v = dmenucmd } },
 	{ MODKEY,             			XK_Return, 		spawn,          {.v = termcmd } },
 	{ MODKEY,             			XK_w, 	   		spawn,          SHCMD("$BROWSER") },
+	{ MODKEY,             			XK_e, 	   		spawn,          SHCMD("emoji") },
 	{ MODKEY,             			XK_x, 	   		spawn,          SHCMD("xcolor2hex") },
 	{ MODKEY,             			XK_s, 	   		spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,             			XK_Page_Up,		spawn,          SHCMD("getshade") },
