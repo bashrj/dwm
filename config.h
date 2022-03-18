@@ -68,6 +68,8 @@ static Key keys[] = {
 	{ MODKEY,             			XK_e, 	   		spawn,          SHCMD("emoji") },
 	{ MODKEY,             			XK_x, 	   		spawn,          SHCMD("xcolor2hex") },
 	{ MODKEY,             			XK_s, 	   		spawn,          SHCMD("flameshot gui") },
+	{ MODKEY,             			XK_u, 	   		spawn,          SHCMD("logmytime") },
+	{ MODKEY,             			XK_g, 	   		spawn,          SHCMD("gimp") },
 	{ MODKEY,             			XK_Page_Up,		spawn,          SHCMD("getshade") },
 	{ MODKEY,             			XK_Page_Down,	spawn,          SHCMD("getshade -n") },
 	{ MODKEY,                       XK_b,      		togglebar,      {0} },
